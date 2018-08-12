@@ -1,0 +1,49 @@
+.title {
+    font-family: Roboto, sans-serif;
+    color: #fdfdff;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #313036;
+    text-align: center;
+    border-bottom: 3px solid #49484d;
+}
+
+.video-item {
+    font-family: Roboto, sans-serif;
+    color: white;
+    padding: 10px;
+    font-size: 11px;
+    background-color: #57565b;
+    border-bottom: 2px solid #48474d;
+}
+
+.icon-status {
+    padding: 5px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.icon-status-fade {
+    color: #313036;
+    border: 4px solid #313036;
+}
+
+.icon-status-success {
+    color: #64DD17;
+    border: 4px solid #64DD17;
+}
+
+.icon-status-playing {
+    color: #00B8D4;
+    border: 4px solid #00B8D4;
+    padding-left: 7px;
+}
+
+.no-pad {
+    padding: 0;
+}
+
+.side-bar {
+    border-right: 1px solid #212121;
+}

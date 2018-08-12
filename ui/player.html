@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diamond Player</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="player.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3 no-pad side-bar">
+                <div class="title">Modern Family - Season 01</div>
+                <div class="video-item">
+                    <i class="fas fa-check icon-status icon-status-success"></i> Season 11 Episode 01
+                </div>
+                <div class="video-item">
+                    <i class="fas fa-check icon-status icon-status-success"></i> Season 11 Episode 02
+                </div>
+                <div class="video-item">
+                    <i class="fas fa-check icon-status icon-status-success"></i> Season 11 Episode 03
+                </div>
+                <div class="video-item">
+                    <i class="fas fa-play icon-status icon-status-playing"></i> Season 11 Episode 04
+                </div>
+                <div class="video-item">
+                    <i class="fas fa-play icon-status icon-status-fade"></i> Season 11 Episode 05
+                </div>
+            </div>
+
+            <div class="col-9 no-pad">
+                <div class="video-wrapper">
+                    <video controls id="video-main" poster="" class="center-hv">
+                        <source src="file:///F:/Projects/diamond/bin/sample.mp4" type="video/mp4">
+                    </video>
+
+                    <canvas id='play-button' class="center-hv" width="200" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+
+    <script src="../lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="player.js"></script>
+    <script src="components/player-controllers.js"></script>
+    <script src="components/play-button.js"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+</body>
+
+</html>

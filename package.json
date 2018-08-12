@@ -1,0 +1,28 @@
+{
+  "name": "diamond",
+  "version": "1.0.0",
+  "description": "Diamond is an idea for a player that can track a list of video, Including what user\r have watched, What is the last point that the user was watching and etc.\r and which also have capabilities to download video torrents using the inbuild \r torrent client.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "electron": "^2.0.7",
+    "md5-file": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron --inspect=2345 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkasun/diamond.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkasun/diamond/issues"
+  },
+  "homepage": "https://github.com/jkasun/diamond#readme"
+}
